@@ -1,0 +1,9 @@
+{
+	"name": "DE-MINI",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7a000c30-04a3-46ba-be2e-898a5dae08b6",
+		"tenantId": "2800c0a0-70e9-49be-8733-faeaa6aced99"
+	}
+}
