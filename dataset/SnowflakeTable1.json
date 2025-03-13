@@ -14,7 +14,7 @@
 		"type": "SnowflakeV2Table",
 		"schema": [],
 		"typeProperties": {
-			"schema": "dbo",
+			"schema": "DBO",
 			"table": {
 				"value": "@dataset().TableName",
 				"type": "Expression"

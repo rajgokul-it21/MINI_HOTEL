@@ -59,7 +59,7 @@
 									"type": "DatasetReference",
 									"parameters": {
 										"TableName": {
-											"value": "@item().TABLE_NAME",
+											"value": "@item().TABLE_NAME.toUpper",
 											"type": "Expression"
 										}
 									}
