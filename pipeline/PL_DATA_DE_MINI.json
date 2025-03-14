@@ -1,9 +1,9 @@
 {
-	"name": "PS_DATA_DE_MINI",
+	"name": "PL_DATA_DE_MINI",
 	"properties": {
 		"activities": [
 			{
-				"name": "ForEach1",
+				"name": "FE_SERVER_TO_SNOWFLAKE",
 				"type": "ForEach",
 				"dependsOn": [
 					{
@@ -21,7 +21,7 @@
 					},
 					"activities": [
 						{
-							"name": "Copy data1",
+							"name": "CD_SERVER_TO_SNOWFLAKE",
 							"type": "Copy",
 							"dependsOn": [],
 							"policy": {
