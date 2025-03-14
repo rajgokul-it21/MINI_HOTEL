@@ -16,7 +16,7 @@
 		"typeProperties": {
 			"schema": "DBO",
 			"table": {
-				"value": "@dataset().TableName",
+				"value": "@toupper(dataset().TableName)",
 				"type": "Expression"
 			}
 		}
